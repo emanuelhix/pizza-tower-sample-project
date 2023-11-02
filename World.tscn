@@ -4,11 +4,12 @@
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 235.5, 11 )
+extents = Vector2( 213.324, 11 )
 
 [node name="World" type="Node2D"]
 
 [node name="Background" type="Sprite" parent="."]
+visible = false
 position = Vector2( 172, -7 )
 scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 1 )
@@ -19,5 +20,56 @@ texture = ExtResource( 1 )
 position = Vector2( 171.5, 172 )
 shape = SubResource( 1 )
 
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ground"]
+position = Vector2( 344, 255 )
+shape = SubResource( 1 )
+
+[node name="Ground6" type="StaticBody2D" parent="."]
+position = Vector2( 201, -238 )
+scale = Vector2( 0.34005, 1.10017 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground6"]
+position = Vector2( 163.091, 178.155 )
+shape = SubResource( 1 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ground6"]
+position = Vector2( 423.467, 141.797 )
+shape = SubResource( 1 )
+
+[node name="Ground2" type="StaticBody2D" parent="."]
+position = Vector2( -5, -56 )
+scale = Vector2( 0.21909, 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground2"]
+position = Vector2( 171.5, 172 )
+shape = SubResource( 1 )
+
+[node name="Ground3" type="StaticBody2D" parent="."]
+position = Vector2( -85, -116 )
+scale = Vector2( 0.21909, 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground3"]
+position = Vector2( 171.5, 172 )
+shape = SubResource( 1 )
+
+[node name="Ground4" type="StaticBody2D" parent="."]
+position = Vector2( 71, -159 )
+scale = Vector2( 0.346071, 1.00742 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground4"]
+position = Vector2( 171.5, 172 )
+shape = SubResource( 1 )
+
+[node name="Ground5" type="StaticBody2D" parent="."]
+position = Vector2( -20, 3307 )
+scale = Vector2( 3.01907, 7.84997 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground5"]
+position = Vector2( 171.5, 172 )
+shape = SubResource( 1 )
+
 [node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 116, 161 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true

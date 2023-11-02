@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=85 format=2]
 
 [ext_resource path="res://Adventurer Sprite Sheet v1.3.png" type="Texture" id=1]
 [ext_resource path="res://Player/Player.gd" type="Script" id=2]
@@ -7,6 +7,70 @@
 [ext_resource path="res://Player/Run.gd" type="Script" id=5]
 [ext_resource path="res://Player/Air.gd" type="Script" id=6]
 [ext_resource path="res://Player/Attack.gd" type="Script" id=7]
+[ext_resource path="res://Peppino/idle_01.png" type="Texture" id=8]
+[ext_resource path="res://Peppino/idle_05-08.png" type="Texture" id=9]
+[ext_resource path="res://Peppino/idle_14.png" type="Texture" id=10]
+[ext_resource path="res://Peppino/idle_15.png" type="Texture" id=11]
+[ext_resource path="res://Peppino/idle_04.png" type="Texture" id=12]
+[ext_resource path="res://Peppino/idle_16-17.png" type="Texture" id=13]
+[ext_resource path="res://Peppino/idle_18.png" type="Texture" id=14]
+[ext_resource path="res://Peppino/idle_00.png" type="Texture" id=15]
+[ext_resource path="res://Peppino/idle_02.png" type="Texture" id=16]
+[ext_resource path="res://Peppino/idle_11.png" type="Texture" id=17]
+[ext_resource path="res://Peppino/idle_09.png" type="Texture" id=18]
+[ext_resource path="res://Peppino/idle_10.png" type="Texture" id=19]
+[ext_resource path="res://Peppino/idle_12.png" type="Texture" id=20]
+[ext_resource path="res://Peppino/idle_03.png" type="Texture" id=21]
+[ext_resource path="res://Peppino/idle_13.png" type="Texture" id=22]
+[ext_resource path="res://Peppino/idle_19.png" type="Texture" id=23]
+[ext_resource path="res://Peppino/idle_20.png" type="Texture" id=24]
+[ext_resource path="res://Peppino/hurtwalk_01.png" type="Texture" id=25]
+[ext_resource path="res://Peppino/hurtwalk_00.png" type="Texture" id=26]
+[ext_resource path="res://Peppino/hurtwalk_07.png" type="Texture" id=27]
+[ext_resource path="res://Peppino/hurtwalk_04.png" type="Texture" id=28]
+[ext_resource path="res://Peppino/hurtwalk_09.png" type="Texture" id=29]
+[ext_resource path="res://Peppino/hurtwalk_03.png" type="Texture" id=30]
+[ext_resource path="res://Peppino/hurtwalk_02.png" type="Texture" id=31]
+[ext_resource path="res://Peppino/hurtwalk_10.png" type="Texture" id=32]
+[ext_resource path="res://Peppino/hurtwalk_05.png" type="Texture" id=33]
+[ext_resource path="res://Peppino/hurtwalk_08.png" type="Texture" id=34]
+[ext_resource path="res://Peppino/hurtwalk_06.png" type="Texture" id=35]
+[ext_resource path="res://Peppino/jump_11.png" type="Texture" id=36]
+[ext_resource path="res://Peppino/jump_07.png" type="Texture" id=37]
+[ext_resource path="res://Peppino/jump_09.png" type="Texture" id=38]
+[ext_resource path="res://Peppino/jump_08.png" type="Texture" id=39]
+[ext_resource path="res://Peppino/jump_10.png" type="Texture" id=40]
+[ext_resource path="res://Peppino/jump_01.png" type="Texture" id=41]
+[ext_resource path="res://Peppino/jump_05.png" type="Texture" id=42]
+[ext_resource path="res://Peppino/jump_06.png" type="Texture" id=43]
+[ext_resource path="res://Peppino/jump_04.png" type="Texture" id=44]
+[ext_resource path="res://Peppino/jump_02.png" type="Texture" id=45]
+[ext_resource path="res://Peppino/jump_00.png" type="Texture" id=46]
+[ext_resource path="res://Peppino/jump_03.png" type="Texture" id=47]
+[ext_resource path="res://Peppino/fall_00.png" type="Texture" id=48]
+[ext_resource path="res://Peppino/fall_02.png" type="Texture" id=49]
+[ext_resource path="res://Peppino/freefall_02.png" type="Texture" id=50]
+[ext_resource path="res://Peppino/fall_01.png" type="Texture" id=51]
+[ext_resource path="res://Peppino/freefall_01.png" type="Texture" id=52]
+[ext_resource path="res://Peppino/freefall_00.png" type="Texture" id=53]
+[ext_resource path="res://Peppino/machfreefall_01.png" type="Texture" id=54]
+[ext_resource path="res://Peppino/machfreefall_00.png" type="Texture" id=55]
+[ext_resource path="res://Peppino/machfreefall_04.png" type="Texture" id=56]
+[ext_resource path="res://Peppino/machfreefall_05.png" type="Texture" id=57]
+[ext_resource path="res://Peppino/machfreefall_02.png" type="Texture" id=58]
+[ext_resource path="res://Peppino/machfreefall_03.png" type="Texture" id=59]
+[ext_resource path="res://Peppino/land_05.png" type="Texture" id=60]
+[ext_resource path="res://Peppino/land_03.png" type="Texture" id=61]
+[ext_resource path="res://Peppino/land_02.png" type="Texture" id=62]
+[ext_resource path="res://Peppino/land_04.png" type="Texture" id=63]
+[ext_resource path="res://Peppino/land_01.png" type="Texture" id=64]
+[ext_resource path="res://Peppino/land_00.png" type="Texture" id=65]
+[ext_resource path="res://Player/Land.gd" type="Script" id=66]
+[ext_resource path="res://Peppino/freefallland_01.png" type="Texture" id=67]
+[ext_resource path="res://Peppino/freefallland_02.png" type="Texture" id=68]
+[ext_resource path="res://Peppino/freefallland_04-23.png" type="Texture" id=69]
+[ext_resource path="res://Peppino/freefallland_03.png" type="Texture" id=70]
+[ext_resource path="res://Peppino/freefallland_00.png" type="Texture" id=71]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 7.0
@@ -99,37 +163,121 @@ tracks/1/keys = {
 } ]
 }
 
-[sub_resource type="Animation" id=2]
-resource_name = "Idle"
-length = 1.3
-loop = true
+[sub_resource type="Animation" id=9]
+resource_name = "Fall"
+length = 0.3
 tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:frame")
+tracks/0/path = NodePath("Sprite:texture")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"times": PoolRealArray( 0, 0.1, 0.2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
 "update": 1,
-"values": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+"values": [ ExtResource( 48 ), ExtResource( 51 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+resource_name = "FreeFall"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 53 ), ExtResource( 52 ), ExtResource( 50 ) ]
+}
+
+[sub_resource type="Animation" id=13]
+resource_name = "FreeFallLand"
+length = 3.68
+step = 0.16
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.16, 0.32, 0.48, 0.481, 0.64, 0.8, 0.96 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 71 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 57 ), ExtResource( 70 ), ExtResource( 69 ), ExtResource( 69 ), ExtResource( 69 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "Idle"
+length = 1.3
+loop = true
+step = 0.06
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.06, 0.12, 0.18, 0.24, 0.3, 0.36, 0.42, 0.48, 0.54, 0.6, 0.66, 0.72, 0.78, 0.84, 0.9, 0.96, 1.02, 1.08, 1.081, 1.14, 1.2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 15 ), ExtResource( 8 ), ExtResource( 16 ), ExtResource( 21 ), ExtResource( 12 ), ExtResource( 9 ), ExtResource( 9 ), ExtResource( 9 ), ExtResource( 9 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 17 ), ExtResource( 20 ), ExtResource( 22 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 13 ), ExtResource( 13 ), ExtResource( 1 ), ExtResource( 14 ), ExtResource( 23 ), ExtResource( 24 ) ]
 }
 
 [sub_resource type="Animation" id=5]
 resource_name = "Jump"
 length = 0.6
+step = 0.045
 tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:frame")
+tracks/0/path = NodePath("Sprite:texture")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 ),
+"times": PoolRealArray( 0, 0.045, 0.09, 0.135, 0.18, 0.225, 0.27, 0.315, 0.36, 0.405, 0.45, 0.495 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 46 ), ExtResource( 41 ), ExtResource( 45 ), ExtResource( 47 ), ExtResource( 44 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 37 ), ExtResource( 39 ), ExtResource( 38 ), ExtResource( 40 ), ExtResource( 36 ) ]
+}
+
+[sub_resource type="Animation" id=12]
+resource_name = "Land"
+step = 0.16
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.16, 0.161, 0.32, 0.321, 0.48, 0.481, 0.64, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 65 ), ExtResource( 57 ), ExtResource( 64 ), ExtResource( 57 ), ExtResource( 62 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 63 ), ExtResource( 60 ) ]
+}
+
+[sub_resource type="Animation" id=11]
+resource_name = "MachFreeFall"
+length = 0.4
+step = 0.06
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.06, 0.12, 0.18, 0.24, 0.3 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ 65, 66, 67, 68, 69, 70 ]
+"values": [ ExtResource( 55 ), ExtResource( 54 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 56 ), ExtResource( 57 ) ]
 }
 
 [sub_resource type="Animation" id=3]
@@ -151,27 +299,27 @@ tracks/0/keys = {
 resource_name = "Run"
 length = 0.8
 loop = true
+step = 0.07
 tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:frame")
+tracks/0/path = NodePath("Sprite:texture")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"times": PoolRealArray( 0, 0.07, 0.071, 0.14, 0.21, 0.28, 0.35, 0.42, 0.49, 0.56, 0.63, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ 13, 14, 15, 16, 17, 18, 19, 20 ]
+"values": [ ExtResource( 26 ), ExtResource( 25 ), ExtResource( 25 ), ExtResource( 31 ), ExtResource( 30 ), ExtResource( 28 ), ExtResource( 33 ), ExtResource( 35 ), ExtResource( 27 ), ExtResource( 34 ), ExtResource( 29 ), ExtResource( 32 ) ]
 }
 
 [node name="Player" type="KinematicBody2D"]
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 1, -15 )
-texture = ExtResource( 1 )
-hframes = 13
-vframes = 13
+position = Vector2( 1, -16 )
+scale = Vector2( 0.355, 0.355 )
+texture = ExtResource( 69 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 0, -11 )
@@ -181,8 +329,13 @@ shape = SubResource( 1 )
 anims/Attack1 = SubResource( 6 )
 anims/Attack2 = SubResource( 7 )
 anims/Attack3 = SubResource( 8 )
+anims/Fall = SubResource( 9 )
+anims/FreeFall = SubResource( 10 )
+anims/FreeFallLand = SubResource( 13 )
 anims/Idle = SubResource( 2 )
 anims/Jump = SubResource( 5 )
+anims/Land = SubResource( 12 )
+anims/MachFreeFall = SubResource( 11 )
 anims/RESET = SubResource( 3 )
 anims/Run = SubResource( 4 )
 
@@ -218,3 +371,7 @@ next_state = "Attack3"
 script = ExtResource( 7 )
 _animation_player = NodePath("../../AnimationPlayer")
 animation = "Attack3"
+
+[node name="Land" type="Node" parent="StateMachine"]
+script = ExtResource( 66 )
+_animation_player = NodePath("../../AnimationPlayer")

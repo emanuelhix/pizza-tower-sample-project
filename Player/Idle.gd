@@ -9,7 +9,7 @@ func enter(_msg := {}) -> void:
 	
 
 func physics_update(delta: float) -> void:
-	if not player.is_on_floor():
+	if not player.is_on_floor() and player.velocity.y > 0:
 		state_machine.transition_to("Air")
 		return
 	
